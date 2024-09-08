@@ -2,7 +2,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+#Install dependencies
+```bash
+npm -i
+#or
+yarn 
+```
+
+run the development server:
 
 ```bash
 npm run dev
@@ -13,12 +20,10 @@ pnpm dev
 # or
 bun dev
 ```
-#Dependencies
-```
 Next.js:"https://nextjs.org/"
 Shadcn-ui:"https://ui.shadcn.com/"
 Tensorflow.js:"https://www.tensorflow.org/js"
-```
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
@@ -31,7 +36,8 @@ To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
+-[Shadcn-ui](https://ui.shadcn.com/) -a ui/componenets library
+-[Tensorflow.js](https://www.tensorflow.org/js) -machine learning /models library
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
